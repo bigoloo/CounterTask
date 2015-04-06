@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+
+        android:id="@+id/date_time"
+        android:layout_weight="0.5"
+
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="@dimen/padding_size_text_view"
+        />
+
+    <TextView
+        android:id="@+id/count"
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_weight="0.5"
+        android:padding="@dimen/padding_size_text_view"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
